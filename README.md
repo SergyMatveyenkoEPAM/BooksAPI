@@ -1,0 +1,1 @@
+The web API app that allows CRUD operations over the DynamoDB table
