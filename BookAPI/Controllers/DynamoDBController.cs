@@ -21,6 +21,7 @@ namespace BookAPI.Controllers
             _deleteItem = deleteItem;
         }
 
+        [HttpPost]
         [Route("addbook")]
         public IActionResult AddBook([FromQuery] string isbn, string title, string description)
         {
