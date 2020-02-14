@@ -1,0 +1,12 @@
+[Unit]
+Description=Book app service
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=ec2-user
+ExecStart=/usr/bin/dotnet /opt/bookapp/BookAPI.dll
+
+[Install]
+WantedBy=multi-user.target

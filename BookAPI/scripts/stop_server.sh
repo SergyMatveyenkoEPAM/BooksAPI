@@ -1,0 +1,1 @@
+sudo systemctl stop book_app_start.service
